@@ -8,7 +8,11 @@ Steps:
 4. To restore Life360 run the lstart.sh as root
 
 **HOW TO RUN SCRIPT AS ROOT**
+
 Steps:
+
 1.Cd to where the script is
+
 2. Run **sudo** chmod 777
+
 3. Run **sudo** sh lkiller(orlstarter)
