@@ -13,6 +13,6 @@ Steps:
 
 1. cd to where the script is located on the device
 
-2. Run **sudo** chmod 777
+2. Run **sudo** chmod 777 lkiller.sh(or istarter)
 
-3. Run **sudo** sh lkiller(orlstarter)
+3. Run **sudo** sh lkiller(or lstarter)
