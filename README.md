@@ -17,3 +17,5 @@ Steps:
 2. Run **sudo** chmod 777 lkiller.sh(or istart)
 
 3. Run **sudo** sh lkiller(or lstart)
+
+**IF IT SAYS IT CAN NOT FIND THE DIRECTORY MODIFY THE LIFE360 DIRECTORY TO YOUR OWN IN THE SHELL**
