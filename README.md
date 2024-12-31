@@ -11,7 +11,7 @@ Steps:
 
 Steps:
 
-1.Cd to where the script is
+1. cd to where the script is located on the device
 
 2. Run **sudo** chmod 777
 
