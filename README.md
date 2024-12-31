@@ -7,12 +7,13 @@ Steps:
 3. Profit
 4. To restore Life360 run the lstart.sh as root
 
+
 **HOW TO RUN SCRIPT AS ROOT**
 
 Steps:
 
 1. cd to where the script is located on the device
 
-2. Run **sudo** chmod 777 lkiller.sh(or istarter)
+2. Run **sudo** chmod 777 lkiller.sh(or istart)
 
-3. Run **sudo** sh lkiller(or lstarter)
+3. Run **sudo** sh lkiller(or lstart)
