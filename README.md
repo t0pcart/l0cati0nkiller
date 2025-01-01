@@ -1,7 +1,11 @@
 # Life360Killer
 A command line shell to defeat Life360 on jailbroken iOS devices.
 **THIS ONLY WORKS ON JAILBROKEN DEVICES**
-_The lkiller script will cause Life360 to keep reporting the last location you were at prior to execution of ikiller until the lstart script is run_
+
+_The lkiller script will cause Life360 to keep reporting the last location as if you were there. The circle will see your location as your last location before execution of the lkiller script. Executing the lstart script will reload Life360 and show the true location without notifying a location update.
+
+**A MORE DETAILED WRITE UP OF HOW THIS WORKS WILL BE ADDED SOON**
+
 Steps:
 1. Download both scripts
 2. Run the script lkiller as root(Scroll down for Tutorial).
