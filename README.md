@@ -2,8 +2,8 @@
 A command line shell to defeat Life360 on jailbroken iOS devices.
 **THIS ONLY WORKS ON JAILBROKEN DEVICES**
 
-**THIS WILL PERSIST AFTER REBOOTS DUE TO REMOVAL OF THE BINARY FROM THE DISK.
-THE ONLY WAY TO RESTART LIFE360 IS THROUGHT THE LSTART SCRIPT**
+**THIS WILL PERSIST AFTER REBOOT DUE TO REMOVAL OF THE BINARY FROM THE DISK.
+THE ONLY WAY TO RESTART LIFE360 IS THROUGH THE LSTART SCRIPT**
 
 _The lkiller script will cause Life360 to keep reporting the last location as if you were there. The circle will see your location as your last location before execution of the lkiller script. Executing the lstart script will reload Life360 and show the true location without notifying a location update.
 
