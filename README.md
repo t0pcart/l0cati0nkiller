@@ -1,17 +1,16 @@
-# Life360Killer
-A command line shell to defeat Life360 on jailbroken iOS devices.
+# l0cati0nKiller
+A command line shell to defeat Life360/FindMy on jailbroken iOS devices.
 **THIS ONLY WORKS ON JAILBROKEN DEVICES**
 
-Life360Killer causes Life360 to keep displaying the same location prior to running the lkiller and will keep the same location until the lstart script is ran.
+The scripts causes Life360/FindMy to keep displaying the same location prior to running the lkiller and will keep the same location until the lstart script is ran.
 
 **SUPPORTS IOS 15+ (JAILBREAK/ROOT SHELL REQURIED)**
 
-**THIS WILL PERSIST AFTER REBOOT DUE TO REMOVAL OF THE BINARY FROM THE DISK.
-THE ONLY WAY TO RESTART LIFE360 IS THROUGH THE LSTART SCRIPT**
+**THE LIFE360 CHANGES PERSIST AFTER REBOOTS;THE FINDMY WILL NOT**
 
-lkiller: Shell script written to remove Life360's binary in memory and by removing it from the application path on disk
+lkiller: Shell script written to remove Life360's binary in memory and by removing it from the application path on disk; the Find My dameon(findmydeviced) will be killed and prevented from reloading
 
-lstart: Shell script to restore the binary to the appliation path and respawning it back into memory.
+lstart: Shell script to restore the binary to the appliation path and respawning it back into memory; the  Find My dameaon is restarted
 
 **A MORE DETAILED WRITE UP OF HOW THIS WORKS WILL BE ADDED SOON**
 
@@ -32,6 +31,6 @@ Steps:
 
 3. Run **sudo** sh lkiller(or lstart)
 
-**IF IT SAYS IT CAN NOT FIND THE DIRECTORY MODIFY THE LIFE360 DIRECTORY TO YOUR OWN IN THE SHELL**
+**IF IT SAYS IT CAN NOT FIND THE DIRECTORY MODIFY THE LIFE360 DIRECTORY TO YOUR OWN IN THE SHELL/FIND MY WONT HAVE THIS**
 
 
