@@ -10,6 +10,7 @@ Life360Killer causes Life360 to keep displaying the same location prior to runni
 THE ONLY WAY TO RESTART LIFE360 IS THROUGH THE LSTART SCRIPT**
 
 lkiller: Shell script written to remove Life360's binary in memory and by removing it from the application path on disk
+
 lstart: Shell script to restore the binary to the appliation path and respawning it back into memory.
 
 **A MORE DETAILED WRITE UP OF HOW THIS WORKS WILL BE ADDED SOON**
@@ -32,3 +33,5 @@ Steps:
 3. Run **sudo** sh lkiller(or lstart)
 
 **IF IT SAYS IT CAN NOT FIND THE DIRECTORY MODIFY THE LIFE360 DIRECTORY TO YOUR OWN IN THE SHELL**
+
+
