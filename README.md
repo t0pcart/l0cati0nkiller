@@ -1,6 +1,6 @@
 # l0cati0nKiller
 
-**THIS SOFTWARE IS FREE SOFTWARE AND OPEN SOURCED**
+
 
 A command line shell to defeat Life360/FindMy on jailbroken iOS devices.
 **THIS ONLY WORKS ON JAILBROKEN DEVICES**
