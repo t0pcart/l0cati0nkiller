@@ -9,6 +9,10 @@ The scripts causes Life360/FindMy to keep displaying the same location prior to 
 
 **SUPPORTS IOS 15+ (JAILBREAK/ROOT SHELL REQURIED)**
 
+**Why doesn't this support unjailbroken iOS?**
+
+This script needs to be run as root to work, which can only be done on jailbroken iOS
+
 **THE LIFE360 CHANGES PERSIST AFTER REBOOTS;THE FINDMY WILL NOT**
 
 lkiller: Shell script written to remove Life360's binary in memory and by removing it from the application path on disk; the Find My dameon(findmydeviced) will be killed and prevented from reloading
@@ -33,6 +37,8 @@ Steps:
 2. Run **sudo** chmod 777 lkiller.sh(or istart)
 
 3. Run **sudo** sh lkiller(or lstart)
+
+
 
 **IF IT SAYS IT CAN NOT FIND THE DIRECTORY MODIFY THE LIFE360 DIRECTORY TO YOUR OWN IN THE SHELL/FIND MY WONT HAVE THIS**
 
