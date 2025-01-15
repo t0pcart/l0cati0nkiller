@@ -41,7 +41,8 @@ Steps:
 
 
 
-**IF IT SAYS IT CAN NOT FIND THE DIRECTORY MODIFY THE LIFE360 DIRECTORY TO YOUR OWN IN THE SHELL/FIND MY WONT HAVE THIS**
+If it says it can not find the Life360 directory go to the line where it says "cd /var/containers/Bundle/Application/YOURLIFE360APPPATH" and change the last folder to your own Life360 directory. 
+
 
 
 **HOW THIS WORKS**
