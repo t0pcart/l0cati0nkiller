@@ -50,3 +50,6 @@ If it says it can not find the Life360 directory go to the line where it says "c
 Life360's binary runs in the background even when the app is closed to update the location, the binary is killed in memory and then the binary stored in the application path is removed preventing the app from just respawning as without the core binary apps will crash at launch
 
 findmydeviced(the dameon the keeps your location updated even when the FindMy app is closed) is killed in memory and then launchctl is used to unload the dameon preventing it from being respawned automatically.
+
+
+I am trying to make the Life360 part work when running under the mobile user, so only a sandbox escape is needed rather than a kernel r/w exploit, a PAC bypass, and a PPL bypass(or a jailbreak). Manipulating daemons requires root privileges so no FindMy support if this was ever to work.
