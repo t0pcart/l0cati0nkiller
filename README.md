@@ -11,7 +11,10 @@ The scripts causes Life360/FindMy to keep displaying the same location prior to 
 
 **Why doesn't this support unjailbroken iOS?**
 
-This script needs to be run as root to work, which can only be done on jailbroken iOS
+This script needs to be run as root to work, which can only be done on jailbroken iOS.
+
+This script will **NOT** work if it ran under the mobile user in a terminal it **MUST** be ran as **ROOT**
+
 
 **THE LIFE360 CHANGES PERSIST AFTER REBOOTS;THE FINDMY WILL NOT**
 
