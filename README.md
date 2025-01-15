@@ -22,7 +22,6 @@ lkiller: Shell script written to remove Life360's binary in memory and by removi
 
 lstart: Shell script to restore the binary to the appliation path and respawning it back into memory; the  Find My dameaon is restarted
 
-**A MORE DETAILED WRITE UP OF HOW THIS WORKS WILL BE ADDED SOON**
 
 Steps:
 1. Download both scripts
@@ -46,3 +45,8 @@ Steps:
 **IF IT SAYS IT CAN NOT FIND THE DIRECTORY MODIFY THE LIFE360 DIRECTORY TO YOUR OWN IN THE SHELL/FIND MY WONT HAVE THIS**
 
 
+**HOW THIS WORKS**
+
+Life360's binary runs in the background even when the app is closed to update the location, the binary is killed in memory and then the binary stored in the application path is removed preventing the app from just respawning as without the core binary apps will crash at launch
+
+findmydeviced(the dameon the keeps your location updated even when the FindMy app is closed) is killed in memory and then launchctl is used to unload the dameon preventing it from being respawned automatically.
