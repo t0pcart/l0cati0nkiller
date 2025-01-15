@@ -5,7 +5,7 @@
 A command line shell to defeat Life360/FindMy on jailbroken iOS devices.
 **THIS ONLY WORKS ON JAILBROKEN DEVICES**
 
-The scripts causes Life360/FindMy to keep displaying the same location prior to running the lkiller and will keep the same location until the lstart script is ran.
+The scripts will cause Life360/FindMy to stop updating the current location and shows the last location before execution
 
 **SUPPORTS IOS 15+ (JAILBREAK/ROOT SHELL REQURIED)**
 
@@ -18,16 +18,15 @@ This script will **NOT** work if it runs under the mobile user in a terminal it 
 
 **THE LIFE360 CHANGES PERSIST AFTER REBOOTS;THE FINDMY WILL NOT**
 
-lkiller: Shell script written to remove Life360's binary in memory and by removing it from the application path on disk; the Find My dameon(findmydeviced) will be killed and prevented from reloading
-
-lstart: Shell script to restore the binary to the appliation path and respawning it back into memory; the  Find My dameaon is restarted
+lkiller: Shell script to stop FindMy/Life360 from updating your location
+lstart: Shell script to restart FindMy/Life360 updating your location 
 
 
 Steps:
 1. Download both scripts
-2. Run the script lkiller as root(Scroll down for Tutorial).
+2. Run the script lkiller.sh as root(Scroll down for Tutorial).
 3. Profit
-4. To restore Life360 run the lstart.sh as root
+4. To restore location updates run the lstart.sh as root
 
 
 **HOW TO RUN SCRIPT AS ROOT**
