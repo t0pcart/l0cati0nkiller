@@ -1,8 +1,8 @@
 
 echo Starting Life360/FindMy Starter
 echo Spawning script as root
+sudo
 sleep 1
-sudo 
 sudo echo Spawned script as root
 sudo echo Reinstalling binary onto disk
 sudo cd /var/mobile/Life360BACK
