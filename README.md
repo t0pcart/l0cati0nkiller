@@ -28,6 +28,7 @@ Steps:
 3. Profit
 4. To restore location updates run the lstart.sh as root
 
+**THIS SCRIPT CREATES A BACKUP OF THE LIFE360 BINARY IN /var/mobile/LIFE360BACK**
 
 **HOW TO RUN SCRIPT AS ROOT**
 
