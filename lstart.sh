@@ -8,7 +8,7 @@ cp Life360 /var/containers/Bundle/Application/1F98E7D8-0F9B-46FE-90E0-9E582B1A26
 echo Moved binary to application path 
 echo Spawning Life360 as a mobile process
 echo Restarting FindMy Daemaon
-launchctl load findmydeviced 
+launchctl load /usr/libexec/findmydeviced 
 open com.life360.safetymap
 sleep 1
-launchctl reboot userspace
+killall backboardd
