@@ -5,12 +5,7 @@
 
 
 
-******THIS SCRIPT IS NO LONGER PUBLICLY UPFDATED DUE TO AN UNDISCLOSED AMFI BYPASS USED FOR RUNNING THIS SCRIPT WITHOUT JAILBREAK******
-
-
-
-
-
+**This script is no longer maintained due to an undisclosed AMFI bypass discovered that is leveraged on iOS 15+**
 
 
 A command line shell to defeat Life360/FindMy on jailbroken iOS devices.
@@ -63,5 +58,3 @@ Life360's binary runs in the background even when the app is closed to update th
 
 findmydeviced(the dameon the keeps your location updated even when the FindMy app is closed) is killed in memory and then launchctl is used to unload the dameon preventing it from being respawned automatically.
 
-
-I am trying to make the Life360 part work when running under the mobile user, so only a sandbox escape is needed rather than a kernel r/w exploit, a PAC bypass, and a PPL bypass(or a jailbreak). Manipulating daemons requires root privileges so no FindMy support if this was ever to work.
