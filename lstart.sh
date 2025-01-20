@@ -11,4 +11,4 @@ echo Restarting FindMy Daemaon
 launchctl load findmydeviced 
 open com.life360.safetymap
 sleep 1
-launchctl userspace reboot
+launchctl reboot userspace
