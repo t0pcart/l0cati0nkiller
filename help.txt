@@ -1,0 +1,1 @@
+To find your life360 binary go to /var/containers in Filza and look for the Life360 folder(its labeled by app name) and replace that with the cd/cp /var/container/LIFE360/Life360.app/Life360
