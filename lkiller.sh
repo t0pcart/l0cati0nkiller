@@ -5,7 +5,7 @@ echo Running as root!
 echo Starting killer...
 killall Life360
 killall findmydeviced
-Launchctl stop findmydeviced
+launchctl unload findmydeviced
 echo Unloaded findmydeviced 
 echo Terminated Life360/FindMy loaded in memory
 mkdir /var/mobile/BACK
