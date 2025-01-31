@@ -3,11 +3,6 @@
 
 
 
-
-
-**This script is no longer maintained due to an undisclosed AMFI bypass discovered that is leveraged on iOS 15+**
-
-
 A command line shell to defeat Life360/FindMy on jailbroken iOS devices.
 **THIS ONLY WORKS ON JAILBROKEN DEVICES**
 
