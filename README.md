@@ -4,8 +4,10 @@ A command line shell to defeat Life360/FindMy on iOS devices.
 
 write up will be added later
 
-run lkiller as root to stop FindMy/Life360
-run lstart as root so restart them
-idk have fun
+how to use this:
+
+- run lkiller as root to stop FindMy/Life360
+- run lstart as root so restart them
+- idk have fun
 
 
