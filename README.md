@@ -2,7 +2,10 @@
 
 A command line shell to defeat Life360/FindMy on iOS devices.
 
+write up will be added later
 
-The scripts will cause Life360/FindMy to stop updating the current location and shows the last location before execution
+run lkiller as root to stop FindMy/Life360
+run lstart as root so restart them
+idk have fun
 
 
